@@ -6,17 +6,17 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
-* {
+*/* {
   box-sizing: border-box;
-}
+}*/
 
 /* general */
 
 .container {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
+ /* max-width: 960px;
+  margin: 0 auto;*/
+ /* clear: both;*/
 }
 
 h1,
@@ -49,30 +49,8 @@ h2, h3 {
 
 /* header */
 
-#masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
-}
 
-#logo {
-/*  float: left;*/
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-}
+
 
 nav {
 /*  float: right;*/
